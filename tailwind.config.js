@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       Inter:['Jost', 'sans-serif'],
+      Dm:['dm-serif-display']
     },
     extend: {
       screens: {
@@ -17,6 +18,7 @@ module.exports = {
         black:' #292F36',
         grey:'#4D5053',
         orange:'#CDA274',
+        beige:'#f0dac4'
       },
     },
   },
