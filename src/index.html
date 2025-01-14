@@ -13,9 +13,12 @@
       href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
 
     <link href="./output.css" rel="stylesheet" />
   </head>
@@ -54,15 +57,17 @@
     </nav>
 
     <header class="relative wrapper flex pt-[162px]">
-      <div class="items-center">
-        <img
-          class="w-full object-cover bg-cover bg-center"
-          src="assets/Rectangle 1.svg"
-        />
-      </div>
-      <div class="absolute pt-[100px] pl-[25px] text-white">
-        <h1 class="md:text-2xl lg:text-6xl w-[700px]">Let's make your</h1>
-        <h1 class="md:text-2xl 2md:text-6xl w-[700px]">
+      <img
+        class="w-full object-cover bg-center"
+        src="assets/Rectangle 1.svg"
+        alt=""
+      />
+
+      <div
+        class="absolute top-[-100] left-0 p-4 text-white pt-[100px] pl-[25px]"
+      >
+        <h1 class="md:text-4xl lg:text-6xl w-[700px]">Let's make your</h1>
+        <h1 class="md:text-4xl 2md:text-6xl w-[700px]">
           home beautiful together
         </h1>
         <p class="md:text-xl 2md:text-3xl mt-[9px] w-[420px]">
@@ -124,8 +129,8 @@
       </div>
     </section>
 
-    <section class="relative">
-      <div class="flex wrapper mt-[154px]">
+    <section>
+      <!--  <div class="flex wrapper mt-[154px]">
         <div class="">
           <img class="w-full object-cover" src="assets/Frame 2.svg" alt="" />
           <div
@@ -159,6 +164,37 @@
         </div>
         <div>
           <img class="w-full" src="assets/Subtract.svg" alt="" />
+        </div>
+      </div>-->
+
+      <div class="mt-[154px]">
+        <div class="wrapper flex">
+          <div class="relative overflow-hidden">
+            <img
+              src="assets/Frame 2.svg"
+              alt="Your Image"
+              class="object-cover w-full 0"
+            />
+            <div class="absolute top-0 left-0 p-4 text-white">
+              <h1 class="w-full 2md:w-[80%] md:text-[16px] 2md:text-4xl pt-8">
+                We create art for modern life
+              </h1>
+              <p class="w-full md:text-[12px] 2md:text-base pt-5">
+                There are many variations of the passages of lorem Ipsum from
+                available, majority.
+              </p>
+              <div class="flex gap-[15px] items-center pt-5">
+                <img src="assets/Call Icon.svg" class="2md:w-14 w-6" />
+                <div>
+                  <p class="2md:text-xl text-[8px]">012345678</p>
+                  <p class="2md:text-xl text-[8px]">Call Us Anytime</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="assets/Subtract.svg" alt="Subtract" class=" " />
+          </div>
         </div>
       </div>
     </section>
@@ -316,23 +352,23 @@
         class="grid grid-cols-1 2md:grid-cols-4 items-center gap-10 text-center wrapper mt-[173px] px-[64px]"
       >
         <div class="flex flex-col gap-[16px]">
-          <h class="font-Dm font-normal text-orange text-8xl ">12</h>
+          <h class="font-Dm font-normal text-orange text-8xl">12</h>
           <p>Years Of Experiance</p>
         </div>
 
         <div class="flex flex-col gap-[16px]">
-          <h class="font-Dm font-normal text-orange text-8xl ">1074</h>
-          <p >Success Project</p>
+          <h class="font-Dm font-normal text-orange text-8xl">1074</h>
+          <p>Success Project</p>
         </div>
 
         <div class="flex flex-col gap-[16px]">
-          <h class="font-Dm font-normal text-orange text-8xl ">98</h>
+          <h class="font-Dm font-normal text-orange text-8xl">98</h>
           <p>Active Project</p>
         </div>
 
         <div class="flex flex-col gap-[16px]">
-          <h class="font-Dm font-normal text-orange text-8xl ">583</h>
-          <p ">Happy CUstomers</p>
+          <h class="font-Dm font-normal text-orange text-8xl">583</h>
+          <p>Happy CUstomers</p>
         </div>
       </div>
     </section>
@@ -344,46 +380,141 @@
         </div>
         <div>
           <p class="text-3xl text-center font-light">
-            It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.
+            It is a long established fact that a reader will be distracted by
+            the of readable content of a page when lookings at its layouts the
+            points of using.
           </p>
         </div>
       </div>
     </section>
 
     <section>
-      <div class=" wrapper grid grid-cols-1 2md:grid-cols-3  gap-12 justify-between items-center  mt-[95px]"
+      <div
+        class="wrapper grid grid-cols-1 2md:grid-cols-3 gap-12 justify-between items-center mt-[95px]"
       >
-        <div class="border rounded-3xl px-4 py-4 items-center ">
-          <img class="" src="assets/kitchen.svg" alt=""/>
-          <h3 class="uppercase">Let’s Get Solution For Building Construction Work</h3>
-          <div class="grid grid-cols-1 2md:grid-cols-2 items-center  justify-between gap-16  "
+        <div class="border rounded-3xl px-4 py-4 items-center">
+          <img class="" src="assets/kitchen.svg" alt="" />
+          <h3 class="uppercase">
+            Let’s Get Solution For Building Construction Work
+          </h3>
+          <div
+            class="grid grid-cols-1 2md:grid-cols-2 items-center justify-between gap-16"
           >
-            <p >26 December,2022 </p>
-            <img class="" src="assets/Ellipse.svg" alt=""/>
+            <p>26 December,2022</p>
+            <img class="" src="assets/Ellipse.svg" alt="" />
           </div>
         </div>
 
         <div class="border rounded-3xl px-4 py-4 items-center bg-beige">
-          <img class="" src="assets/living.svg" alt=""/>
-          <h3 class="uppercase">Low Cost Latest Invented Interior Designing
-            Ideas.</h3>
-          <div class="grid grid-cols-1 2md:grid-cols-2 items-center  justify-between gap-16  "
+          <img class="" src="assets/living.svg" alt="" />
+          <h3 class="uppercase">
+            Low Cost Latest Invented Interior Designing Ideas.
+          </h3>
+          <div
+            class="grid grid-cols-1 2md:grid-cols-2 items-center justify-between gap-16"
           >
-            <p >22 November,2023 </p>
-            <img class="" src="assets/Ellipse.svg" alt=""/>
+            <p>22 November,2023</p>
+            <img class="" src="assets/Ellipse.svg" alt="" />
           </div>
         </div>
 
-        <div class="border rounded-3xl px-4 py-4 items-center  ">
-          <img class="" src="assets/interior.svg" alt=""/>
-          <h3 class="uppercase">Best For Any Office & Business Interior 
-            Solution</h3>
-          <div class="grid grid-cols-1 2md:grid-cols-2 items-center  justify-between gap-16  "
+        <div class="border rounded-3xl px-4 py-4 items-center">
+          <img class="" src="assets/interior.svg" alt="" />
+          <h3 class="uppercase">
+            Best For Any Office & Business Interior Solution
+          </h3>
+          <div
+            class="grid grid-cols-1 2md:grid-cols-2 items-center justify-between gap-16"
           >
-            <p >4 December,2023 </p>
-            <img class="" src="assets/Ellipse.svg" alt=""/>
+            <p>4 December,2023</p>
+            <img class="" src="assets/Ellipse.svg" alt="" />
           </div>
         </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="relative mt-[119px]">
+        <img
+          src="assets/Rectangle 10.svg"
+          alt="Your Image"
+          class="w-full object-cover rounded-lg sm:w-full"
+        />
+        <div
+          class="absolute top-0 left-0 p-4 text-white text-center items-center w-full"
+        >
+          <h1 class="text-4xl font-bold w-full">Wanna join the interno?</h1>
+          <p class="text-[22px]">
+            It is a long established fact will be distracted.
+          </p>
+          <div
+            class="flex items-center 2md:py-6 rounded-2xl bg-orange 2md:px-12 w-[280px] mt-[32px] md:text-xl 2md:text-xl"
+          >
+            <button class=" ">Contact With Us</button>
+            <span class="material-icons"> arrow_forward </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper mt-10 grid grid-cols-1 2md:grid-cols-4 gap-7">
+        <div>
+          <img
+            class="w-28 cursor-pointer"
+            src="assets/SELHONO.svg"
+            alt="LOGO"
+          />
+
+          <p>
+            It is a long established fact that a reader will be distracted
+            lookings.
+          </p>
+          <div>
+            <ul class="justify-center items-center grid 2md:grid-cols-4">
+              <li><img src="assets/facbook.svg" /></li>
+              <li><img src="assets/twitter.svg" /></li>
+              <li><img src="assets/linkedin.svg" /></li>
+              <li><img src="assets/insta.svg" /></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <ul>
+            <li class="font-bold"><a href="#">Pages</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Projects</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Servives</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="font-bold"><a href="#">Services</a></li>
+            <li><a href="#">Kitchan</a></li>
+            <li><a href="#">Living Area</a></li>
+            <li><a href="#">Bathroom</a></li>
+            <li><a href="#">Dinning Hall</a></li>
+            <li><a href="#">Bedroom</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="font-bold"><a href="#">Services</a></li>
+            <li>
+              <a href="#">55 East Birchwood Ave. Brooklyn, New York 11201</a>
+            </li>
+            <li><a href="#">contact@selhono.com </a></li>
+            <li><a href="#">(123) 456 - 7890</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <section>
+      <div>
+        <p>Copyright © SELHONO</p>
       </div>
     </section>
   </body>
